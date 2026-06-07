@@ -58,7 +58,7 @@ st.markdown("Analise preditiva e auditoria de Sistemas Operacionais integrada ao
 # Auto-refresh configurado para 30 segundos (sem piscar a aba agressivamente)
 st_autorefresh(interval=30000, key="contador_MDR_estavel")
 
-PASTA_INVENTARIO = "/home/ricardo/Documents/1a###ARTIGO_MESTRADO_CVES####/inventario"
+PASTA_INVENTARIO = "https://github.com/januariaricardo-collab/mdr-soc-unimontes"
 
 # =========================================================================
 # 1. CONSULTA DINÂMICA: API CIRCL (CVE-Search)
