@@ -58,7 +58,10 @@ st.markdown("Analise preditiva e auditoria de Sistemas Operacionais integrada ao
 # Auto-refresh configurado para 30 segundos (sem piscar a aba agressivamente)
 st_autorefresh(interval=30000, key="contador_MDR_estavel")
 
-PASTA_INVENTARIO = "https://github.com/januariaricardo-collab/mdr-soc-unimontes"
+# --- AJUSTE DE CAMINHO DINÂMICO PARA OS ARQUIVOS JSON ---
+PASTA_LOCAL = "/home/ricardo/Documents/1a###ARTIGO_MESTRADO_CVES####/inventario"
+# Se a pasta local existir (sua máquina), usa ela. Se não (nuvem/GitHub), lê a raiz do repositório.
+PASTA_INVENTARIO = PASTA_LOCAL if os.path.exists(PASTA_LOCAL) else "."
 
 # =========================================================================
 # 1. CONSULTA DINÂMICA: API CIRCL (CVE-Search)
