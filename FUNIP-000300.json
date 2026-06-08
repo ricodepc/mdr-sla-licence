@@ -1,0 +1,16 @@
+﻿{
+    "Hostname":  "FUNIP-000300",
+    "DataColeta":  "2026-06-08 10:36:35",
+    "SO":  "Microsoft Windows 11 Pro for Workstations",
+    "Build":  "26200",
+    "KBs":  [
+                "KB5092427",
+                "KB5050575",
+                "KB5054156",
+                "KB5071430",
+                "KB5089573",
+                "KB5092734"
+            ],
+    "StatusLicencaWindows":  "Original / Licenciado",
+    "UsaAtivadorKMSPico":  0
+}
